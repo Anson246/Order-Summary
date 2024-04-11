@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/order-summary-page-58WR2EqMe4)
+- Live Site URL: [Add live site URL here](https://anson246.github.io/Order-Summary/)
 
 ## My process
 
