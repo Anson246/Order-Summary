@@ -1,0 +1,140 @@
+body{
+    font-family:"Red Hat Display", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(images/pattern-background-desktop.svg);
+    background-size: 100% 50vh;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-color: hsl(228, 100%, 95%);;
+}
+
+.container{
+    max-width: 430px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    width: 100vw;
+}
+
+.image1{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width: 100%; 
+}
+
+.summary{
+    text-align: center;
+    font-weight: 900;
+    font-size: 25px; 
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 0px;
+}
+
+.text{
+    font-weight: 500;
+    font-size: 16px;
+    color: hsl(220, 15%, 55%);
+    text-align: center;
+    padding: 0px 40px;
+    margin: 0px 10px;
+    padding-bottom: 20px;
+}
+
+.plan{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+    padding-right: 25px;
+    border-radius: 15px;
+    background-color: hsl(225, 100%, 98%);
+}
+
+.icon-container{
+    margin: 20px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.plan-container{
+    padding-right: 85px;
+    padding-bottom: 15px;
+}
+
+.annual-container{
+    margin: 0px;
+    margin-bottom: 5px;
+    font-weight: 900;
+}
+
+.price-container{
+    margin:0px;
+    color: hsl(220, 15%, 55%);
+    font-weight: 500;
+}
+
+.icon{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+.change-container{
+    margin-bottom: 15px;
+}
+
+.plan1,.plan2{
+    margin: 0px;
+}
+
+.plan3{
+    font-weight: 700;
+}
+
+.pay{
+    background-color: hsl(258, 73%, 47%);
+    border: none;
+    box-shadow: 0px 15px 10px rgba(0,0,0,0.1) ;
+    color: white;
+    border-radius: 10px;
+    margin-top: 30px;
+    padding: 20px 70px;
+    font-weight: 700;
+    font-size: 15px;
+    width: 80%;
+}
+
+.cancel{
+    font-size: 15px;
+    font-weight: 700;
+    color: hsl(220, 15%, 55%);
+    text-align: center;
+    padding: 30px 70px;
+    margin-top: 0px;
+}
+
+.cancel:hover{
+    cursor: pointer;
+    color: black;
+}
+
+.plan3:hover{
+    cursor: pointer;
+    text-decoration: none;
+    color: rgb(111, 111, 226);
+    opacity: 0.9;
+}
+
+.pay:hover{
+    cursor: pointer;
+    background-color: rgb(111, 111, 226);
+    opacity: 0.9;
+}
+
